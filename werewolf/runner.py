@@ -56,12 +56,25 @@ DEFAULT_VILLAGER_MODELS = ["flash", "pro1.5"]
 RESUME_DIRECTORIES = []
 
 model_to_id = {
-    "pro1.5": "gemini-1.5-pro-preview-0514",
-    "flash": "gemini-1.5-flash-001",
-    "pro1": "gemini-pro",
+    # Google Gemini Models
+    "pro1.5": "gemini-1.5-pro-002",
+    "flash": "gemini-1.5-flash-002",
+    "pro1": "gemini-1.0-pro-002",
+    "pro2.5": "gemini-2.5-pro-preview-05-06",
+    "flash2.5": "gemini-2.5-flash-preview-05-20",
+    "flash2.0": "gemini-2.0-flash-001",
+    "flash2.0lite": "gemini-2.0-flash-lite-001",
+
+    # OpenAI GPT Models
     "gpt4": "gpt-4-turbo-2024-04-09",
     "gpt4o": "gpt-4o-2024-05-13",
+    "gpt4o-mini": "gpt-4o-mini-realtime-preview-2024-12-17",
     "gpt3.5": "gpt-3.5-turbo-0125",
+
+    # Anthropic Claude Models
+    "claude3.7": "claude-3.7-sonnet",
+    "claude4": "claude-4-sonnet",
+    "claude4-opus": "claude-4-opus",
 }
 
 
